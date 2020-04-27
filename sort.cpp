@@ -8,7 +8,7 @@ int main()
     std::string line;
     std::cout << "enter string: ";
     std::cin >> line;
-    p = sizeof(line);
+    p = line.size;
     
     for (int i = 0; i < p ; ++i) {
 
