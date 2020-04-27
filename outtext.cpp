@@ -9,7 +9,7 @@ int main()
 	in.open("D:/projects/lynx.txt");
 	if (in.is_open())
 	{
-		while(getline(in, line))
+		while(std::getline(in, line))
 		{
 			std::cout << line << std::endl;
 		}
