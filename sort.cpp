@@ -8,11 +8,11 @@ int main()
     std::string line;
     std::cout << "enter string: ";
     std::cin >> line;
-    p = line.size;
+    p = line.size();
     
     for (int i = 0; i < p ; ++i) {
 
-        for (int J = i+1; J < p -i - 1; ++J) {
+        for (int J = i+1; J < i; ++J) {
 
                 if (line[J] > line[i]) {
                     nt = line[i];
