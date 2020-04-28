@@ -12,7 +12,7 @@ int main()
     
     for (int i = 0; i < p ; ++i) {
 
-        for (int J = i+1; J < i; ++J) {
+        for (int J = i+1; J < p - i; ++J) {
 
                 if (line[J] > line[i]) {
                     nt = line[i];
