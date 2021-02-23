@@ -1,8 +1,15 @@
 #include<iostream>
-#include<math.h>
 
+int ReadNumber() {
+    
+    int a;
+    std::cin >> a;
+    return a;
 
-int main()
-{
-	
+}
+
+void WriteAnswer(int c){
+
+    std::cout << "Answer is " << c << "\n";
+
 }
